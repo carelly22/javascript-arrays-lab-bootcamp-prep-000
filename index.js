@@ -40,4 +40,5 @@ function prependKitten(name){
 //define a function that removes the last kitten in the kittens array and returns a new array, leaving kittens untouched
 function removeLastKitten(){
   kittens.slice(0, kittens.length - 1)
+  return kittens
 }
