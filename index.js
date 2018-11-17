@@ -12,3 +12,9 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
   return kittens
 }
+
+//define a function that destructively removes the last kitten from the kittens array
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+  return kittens
+}
