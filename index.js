@@ -24,3 +24,9 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
 }
+
+//define a function that appends a kitten to the kittens array and returns a new array, leaving kittens untouched
+function appendKitten(name){
+  var newKitens = [name, ...kittens]
+  return newKittens
+}
