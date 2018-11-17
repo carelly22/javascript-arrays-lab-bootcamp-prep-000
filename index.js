@@ -27,6 +27,6 @@ function destructivelyRemoveFirstKitten(){
 
 //define a function that appends a kitten to the kittens array and returns a new array, leaving kittens untouched
 function appendKitten(name){
-  var newKittens = [name, ...kittens]
+  var newKittens = [...kittens, name]
   return newKittens
 }
