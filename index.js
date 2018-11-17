@@ -45,5 +45,6 @@ function removeLastKitten(){
 
 //define a function that removes the first kitten from the kittens array and returns a new array, leaving kittens untouched
 function removeFirstKitten(){
-  
+  var newKittens = kittens.slice(1)
+  return newKittens
 }
